@@ -12,11 +12,11 @@ This is a very simple and basic (and shitty) static web server for Arduino using
 - POST and all other HTTP requests
 - all status codes except 200 and 404
 - any HTTP version other than 1.1
-- almost all HTTP header fields and those ones which are supported have very basic support
+- ~~almost~~ all HTTP header fields ~~and those ones which are supported have very basic support~~
 - caching
 - redirection
 - multiple simultaneous connections
-- URL encoding/decoding (except spaces)
+- URL encoding/decoding (except spaces, but decoding only)
 
 
 ## Dependencies
