@@ -1,5 +1,5 @@
 # Arduino Static Web Server
-This is a very simple and basic (and shitty) static web server for Arduino using the Ethernet shield which also includes an SD card slot (in which the served files are stored). I barely use C++ so don't expect this code to be written in the best way possible.
+This is a very simple and basic static web server for Arduino using the Ethernet shield which also includes an SD card slot (in which the served files are stored). I barely used C++ at the point of making this so don't expect this code to be written in the best way possible.
 
 ### Supports:
 - GET requests
@@ -17,7 +17,7 @@ This is a very simple and basic (and shitty) static web server for Arduino using
 - redirection
 - multiple simultaneous connections
 - URL encoding/decoding (except spaces, but decoding only)
-
+- a reasonable transfer speed
 
 ## Dependencies
 - built in SPI library
